@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo-style {
+  height: 35px;
+  width: 35px;
+  margin-right: 15px;
+}
+@media screen and (min-width: 992px) {
+  .logo-style {
+    height: 45px;
+    width: 45px;
+  }
+}
+.logo-heading-style {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #555555;
+}
+@media screen and (min-width: 992px) {
+  .logo-heading-style {
+    font-size: 32px;
+  }
+}
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+}
+.list-style {
+  list-style-type: none;
+}
+.list-style1 {
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 500;
+  color: #12022f;
+  margin-left: 10px;
+  text-decoration: none;
+}
+@media screen and (min-width: 992px) {
+  .list-style1 {
+    font-size: 27px;
+    margin-left: 20px;
+  }
+}
